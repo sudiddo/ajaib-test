@@ -31,6 +31,7 @@ function Filter({
             type={"search"}
             placeholder={"Search..."}
             value={keyword}
+            aria-label="Search"
           />
           <div className="bg-blue-500 w-8 flex items-center justify-center border-black border-r rounded-tr rounded-br">
             <BsSearch color="white" />
