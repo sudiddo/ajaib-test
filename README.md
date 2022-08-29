@@ -20,6 +20,7 @@ This project will use https://randomuser.me/ for mockapi data.
 - Axios
 - MomentJS
 - usehooks-ts
+- React router dom
 
 ## Run Locally
 
