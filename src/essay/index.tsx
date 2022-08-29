@@ -136,13 +136,17 @@ function Essay() {
     {
       id: 7,
       questions:
-        "Which web server do you use? Why? Explain pros and cons of your choice. I love to explore NGINX, because it’s lightweight and offer best scability",
+        "Which web server do you use? Why? Explain pros and cons of your choice. ",
       answer: (
         <p className="w-[729px]">
+          I love to explore NGINX, because it’s lightweight and offer best
+          scability
+          <br />
+          <br />
           Pros:
           <li className="mt-3">More lightweight</li>
           <li>requires fewer resources / memory</li>
-          <li>
+          <li className="mb-3">
             Better at handling static content Better scalability Recommended for
             sites running on a VPS
           </li>
